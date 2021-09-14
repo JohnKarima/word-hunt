@@ -26,7 +26,6 @@ const Header = ({ setCategory, category, word, setWord, LightMode}) => {
             <TextField 
             className="search"
             label="Search a Word" 
-            label="Standard"
             value={word}
             onChange={(e)=> setWord(e.target.value)} />
 
